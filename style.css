@@ -396,3 +396,19 @@ body {
 #programs {
   padding-bottom: 120px; /* مسافة واضحة قبل الفوتر */
   }
+/* =========================
+   كرت مستطيل حقيقي (مثل الصورة)
+========================= */
+
+.program-card {
+  width: 320px;      /* أعرض */
+  height: 140px;     /* أقصر */
+  padding: 15px;
+  border-radius: 18px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
