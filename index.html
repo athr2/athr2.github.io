@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>أثر</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>أثر</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- الشريط العلوي -->
 <header class="navbar">
-    <img src="logo.png" alt="شعار أثر" class="logo">
+  <img src="logo.png" alt="شعار أثر" class="logo">
 
-    <nav>
-        <a href="#about">عن الموقع</a>
-        <a href="#programs">البرامج</a>
-    </nav>
-</header>
-    <div class="menu">
+  <nav class="desktop-nav">
+    <a href="#about">عن الموقع</a>
+    <a href="#programs">البرامج</a>
+  </nav>
+
+  <!-- زر المينيو -->
   <input type="checkbox" id="menu-toggle">
   <label for="menu-toggle" class="menu-icon">⋮</label>
 
@@ -26,50 +26,45 @@
     <a href="#about">من نحن</a>
     <a href="#programs">البرامج</a>
   </div>
-</div>
+</header>
 
-<!-- الواجهة الرئيسية -->
 <section class="hero">
-
   <div class="hero-content">
     <h1>أثر</h1>
-
   </div>
 
   <div class="hero-image">
     <img src="hero.jpg" alt="صورة الواجهة الرئيسية">
   </div>
-
 </section>
+
 <section id="about" class="section">
   <h2>من نحن</h2>
   <p class="about-text">
-    أثر مساحة تُعرض فيها تجارب وآراء الطلبة حول 
- البرامج التعليمية الإلكترونية الشرعية التي يُشرف عليها الشيخ أحمد السيد.
+    أثر مساحة تُعرض فيها تجارب وآراء الطلبة حول البرامج التعليمية
+    الإلكترونية الشرعية التي يُشرف عليها الشيخ أحمد السيد.
   </p>
 </section>
 
-<!-- البرامج -->
 <section id="programs" class="section light-bg">
-    <h2>البرامج</h2>
+  <h2>البرامج</h2>
 
-    <div class="programs-grid">
-        <a href="benaa.html" class="program-card-link">
-  <div class="program-card">
-    <h3>برنامج البناء المنهجي</h3>
-    <p>برنامج شرعي معرفي بنائي</p>
-    <span class="more">عرض التفاصيل</span>
+  <div class="programs-grid">
+    <a href="benaa.html" class="program-card-link">
+      <div class="program-card">
+        <h3>برنامج البناء المنهجي</h3>
+        <p>برنامج شرعي معرفي بنائي</p>
+        <span class="more">عرض التفاصيل</span>
+      </div>
+    </a>
   </div>
-</a>
-
 </section>
 
-<!-- نافذة البرنامج -->
-
 <footer class="footer">
-    <p>© جميع الحقوق محفوظة لموقع أثر</p>
+  <p>© جميع الحقوق محفوظة لموقع أثر</p>
 </footer>
 
 <script src="script.js"></script>
 </body>
 </html>
+
