@@ -268,3 +268,17 @@ a {
 #menu-toggle:checked + .menu-icon + .menu-links {
   display: block;
 }
+body {
+  direction: rtl;
+  text-align: right;
+}
+section {
+  display: block;
+}
+h1, h2, h3, p {
+  writing-mode: horizontal-tb;
+  white-space: normal;
+}
+.section {
+  display: flex;
+}
