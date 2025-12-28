@@ -358,3 +358,21 @@ a {
   margin-top: 60px;
   padding: 30px 20px;
   }
+.program-logo {
+  width: 140px;        /* نفس العرض للجميع */
+  height: 70px;        /* نفس الارتفاع */
+  object-fit: contain; /* يحافظ على النسبة */
+  margin: 10px auto 0;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;   /* هذا هو الحل السحري */
+}
