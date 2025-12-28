@@ -1,71 +1,81 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>موقع أثر - البرامج التعليمية الشرعية</title>
+    <title>أثر</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body style="font-family:Tahoma; background-color:#fafafa; margin:0; padding:0;">
+<body>
 
-<!-- صورة الواجهة -->
-<img src="header.jpg" style="width:100%; height:300px; object-fit:cover;">
+<!-- الشريط العلوي -->
+<header class="navbar">
+    <img src="images/logo.png" alt="شعار أثر" class="logo">
+    <nav>
+        <a href="#about">عن الموقع</a>
+        <a href="#programs">البرامج</a>
+    </nav>
+</header>
 
-<!-- شعار الموقع -->
-<div style="text-align:center; margin-top:20px;">
-    <img src="logo.png" width="120">
-</div>
+<!-- الواجهة الرئيسية -->
+<section class="hero" style="background-image: url('images/hero.jpg');">
+    <div class="hero-overlay">
+        <h1>أثر</h1>
+        <p>
+            مساحة تُعرض فيها تجارب وآراء الطلبة حول البرامج التعليمية
+            الإلكترونية الشرعية التي يُشرف عليها الشيخ أحمد السيد
+        </p>
+    </div>
+</section>
 
-<!-- تعريف الموقع -->
-<div style="max-width:800px; margin:20px auto; padding:0 15px; color:#333;">
-    <h2 style="text-align:center; color:#2c3e50;">تعريف بالموقع</h2>
-    <p>
-        موقع أثر يهدف إلى توثيق وعرض تجارب وآراء الطلبة حول البرامج التعليمية الإلكترونية الشرعية التي يُشرف عليها الشيخ أحمد السيد.
+<!-- عن الموقع -->
+<section id="about" class="section">
+    <h2>من نحن</h2>
+    <p class="about-text">
+        أثر مساحة معرفية تهدف إلى توثيق تجارب الطلبة وتسليط الضوء على
+        أثر البرامج التعليمية الشرعية الإلكترونية في البناء العلمي
+        والفكري للطالب.
     </p>
-    <p>
-        ويسعى الموقع إلى تقديم صورة صادقة عن أثر هذه البرامج في بناء الوعي العلمي والمنهجي لدى الطلبة، من خلال نقل تجاربهم، وما يُنشر في هذا الموقع يعبّر عن آراء أصحابها، ويأتي في إطار التعريف بالبرامج التعليمية ومخرجاتها.
-    </p>
+</section>
+
+<!-- البرامج -->
+<section id="programs" class="section light-bg">
+    <h2>البرامج</h2>
+
+    <div class="programs-grid">
+        <div class="program-card" onclick="openModal()">
+            <h3>برنامج البناء المنهجي</h3>
+            <p>برنامج شرعي معرفي بنائي</p>
+            <span class="more">عرض التفاصيل</span>
+        </div>
+    </div>
+</section>
+
+<!-- نافذة البرنامج -->
+<div id="programModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">×</span>
+
+        <h2>برنامج البناء المنهجي</h2>
+        <p>
+            برنامج شرعي معرفي بنائي إلكتروني، يجمع بين التأصيل الشرعي
+            والثقافة الإسلامية، يهدف إلى بناء المسلم بناءً شرعيًا قويمًا
+            ويعينه على تجاوز الشتات المعرفي.
+        </p>
+
+        <h3>تجارب الطلبة</h3>
+        <div class="students-images">
+            <img src="images/student1.jpg" alt="">
+            <img src="images/student2.jpg" alt="">
+            <img src="images/student3.jpg" alt="">
+        </div>
+    </div>
 </div>
 
-<!-- برنامج واحد على شكل بطاقة -->
-<div style="
-max-width:350px;
-margin:20px auto;
-border-radius:15px;
-overflow:hidden;
-box-shadow:0 4px 15px rgba(0,0,0,0.2);
-background-color:#fff;
-font-family:Tahoma;
-text-align:center;
-">
+<footer class="footer">
+    <p>© جميع الحقوق محفوظة لموقع أثر</p>
+</footer>
 
-<!-- صورة شعار البرنامج -->
-<img src="program1.png" style="width:100%; height:200px; object-fit:cover;">
-
-<!-- البناء المنهجي -->
-<h3 style="margin:15px 0; color:#2c3e50;">اسم البرنامج</h3>
-
-<!-- زر التفاصيل -->
-<button onclick="document.getElementById('prog1').style.display='block'"
-style="
-background-color:#3498db;
-color:white;
-border:none;
-padding:10px 20px;
-border-radius:8px;
-cursor:pointer;
-margin-bottom:15px;
-font-size:16px;
-">
-عرض التفاصيل
-</button>
-
-<!-- وصف البرنامج (يظهر عند الضغط) -->
-<div id="prog1" style="display:none; padding:0 15px 15px 15px; color:#555; font-size:14px; line-height:1.5;">
-<p>
-    برنامج شرعي معرفي بنائي إلكتروني، يجمع بين التأصيل الشرعي والثقافة الإسلامية، يهدف إلى بناء المسلم بناءً شرعيًا قويمًا ويعينه على تجاوز الشتات المعرفي.
-</p>
-</div>
-
-</div>
-
+<script src="script.js"></script>
 </body>
 </html>
