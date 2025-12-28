@@ -203,3 +203,7 @@ a {
     border-radius: 15px;
 }
 
+.program-card-link {
+  text-decoration: none;
+  color: inherit;
+}
