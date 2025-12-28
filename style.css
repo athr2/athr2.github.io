@@ -301,3 +301,17 @@ a {
 .program-card {
   justify-content: space-between;
   }
+/* =========================
+   تصغير بوكسات البرامج + جعلها مستطيلة
+========================= */
+
+.program-card {
+  width: 260px;        /* أصغر من قبل */
+  min-height: 220px;   /* مستطيل مش مربع */
+  padding: 20px 15px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
