@@ -2,44 +2,70 @@
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <title>أثر البرامج العلمية الإلكترونية الشرعية</title>
+    <title>موقع أثر - البرامج التعليمية الشرعية</title>
 </head>
-<body style="font-family: Tahoma; background-color:#fafafa;">
+<body style="font-family:Tahoma; background-color:#fafafa; margin:0; padding:0;">
 
+<!-- صورة الواجهة -->
 <img src="header.jpg" style="width:100%; height:300px; object-fit:cover;">
+
+<!-- شعار الموقع -->
 <div style="text-align:center; margin-top:20px;">
     <img src="logo.png" width="120">
 </div>
 
-<h1>أثر البرامج العلمية الإلكترونية الشرعية</h1>
-
-<p>
-    أثر مساحة تُعرض فيها تجارب وآراء الطلبة حول البرامج التعليمية الإلكترونية الشرعية التي يُشرف عليها الشيخ أحمد السيد.
-</p>
-
-<hr>
-
-<div style="
-border:1px solid #ddd;
-border-radius:10px;
-padding:15px;
-margin:20px;
-text-align:center;
-box-shadow:0 0 10px #eee;
-">
-
-<img src="program1.png" width="100">
-
-<h3>البناء المنهجي </h3>
-
-<button onclick="document.getElementById('prog1').style.display='block'">
-عرض التفاصيل
-</button>
-
-<div id="prog1" style="display:none; margin-top:10px;">
+<!-- تعريف الموقع -->
+<div style="max-width:800px; margin:20px auto; padding:0 15px; color:#333;">
+    <h2 style="text-align:center; color:#2c3e50;">تعريف بالموقع</h2>
     <p>
-    برنامج شرعي معرفي بنائي إلكتروني، يجمع بين التأصيل الشرعي والثقافة الإسلامية، يهدف إلى بناء المسلم بناءً شرعيًا قويمًا ويعينه على تجاوز الشتات المعرفي.
+        موقع أثر يهدف إلى توثيق وعرض تجارب وآراء الطلبة حول البرامج التعليمية الإلكترونية الشرعية التي يُشرف عليها الشيخ أحمد السيد.
+    </p>
+    <p>
+        ويسعى الموقع إلى تقديم صورة صادقة عن أثر هذه البرامج في بناء الوعي العلمي والمنهجي لدى الطلبة، من خلال نقل تجاربهم، وما يُنشر في هذا الموقع يعبّر عن آراء أصحابها، ويأتي في إطار التعريف بالبرامج التعليمية ومخرجاتها.
     </p>
 </div>
 
+<!-- برنامج واحد على شكل بطاقة -->
+<div style="
+max-width:350px;
+margin:20px auto;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 4px 15px rgba(0,0,0,0.2);
+background-color:#fff;
+font-family:Tahoma;
+text-align:center;
+">
+
+<!-- صورة شعار البرنامج -->
+<img src="program1.png" style="width:100%; height:200px; object-fit:cover;">
+
+<!-- البناء المنهجي -->
+<h3 style="margin:15px 0; color:#2c3e50;">اسم البرنامج</h3>
+
+<!-- زر التفاصيل -->
+<button onclick="document.getElementById('prog1').style.display='block'"
+style="
+background-color:#3498db;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:8px;
+cursor:pointer;
+margin-bottom:15px;
+font-size:16px;
+">
+عرض التفاصيل
+</button>
+
+<!-- وصف البرنامج (يظهر عند الضغط) -->
+<div id="prog1" style="display:none; padding:0 15px 15px 15px; color:#555; font-size:14px; line-height:1.5;">
+<p>
+    برنامج شرعي معرفي بنائي إلكتروني، يجمع بين التأصيل الشرعي والثقافة الإسلامية، يهدف إلى بناء المسلم بناءً شرعيًا قويمًا ويعينه على تجاوز الشتات المعرفي.
+</p>
 </div>
+
+</div>
+
+</body>
+</html>
