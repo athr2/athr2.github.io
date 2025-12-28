@@ -1,1 +1,161 @@
+body {
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+    background: #f6faf8;
+    color: #1f3d2b;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* الشريط العلوي */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #e6f4ee;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar nav a {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* الواجهة */
+.hero {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0, 90, 60, 0.55);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    max-width: 700px;
+    font-size: 18px;
+}
+
+/* الأقسام */
+.section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.light-bg {
+    background: #eaf7f1;
+}
+
+/* البرامج */
+.programs-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.program-card {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+}
+
+.program-card h3 {
+    color: #2f7d5a;
+}
+
+.more {
+    display: block;
+    margin-top: 15px;
+    color: #2f7d5a;
+    font-weight: bold;
+}
+
+/* المودال */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 700px;
+    position: relative;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.students-images {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.students-images img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* الفوتر */
+.footer {
+    background: #dff0e8;
+    padding: 20px;
+    text-align: center;
+}
 
