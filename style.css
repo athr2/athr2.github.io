@@ -153,3 +153,54 @@ a {
     margin-top: 0;
   }
 }
+/* =========================
+   MENU ⋮ (بدون حذف أي شيء)
+========================= */
+
+/* إخفاء روابط الديسكتوب دائمًا */
+.desktop-nav {
+  display: none;
+}
+
+/* زر الثلاث نقاط */
+.menu-icon {
+  font-size: 26px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* إخفاء checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* القائمة المنسدلة */
+.menu-links {
+  display: none;
+  position: absolute;
+  top: 75px;
+  right: 0;
+  width: 100%;
+  background: #e6f4ee;
+  text-align: center;
+  z-index: 999;
+  border-top: 1px solid #cfe7dc;
+}
+
+/* روابط القائمة */
+.menu-links a {
+  display: block;
+  padding: 15px;
+  font-weight: bold;
+  color: #1f3d2b;
+  border-bottom: 1px solid #cfe7dc;
+}
+
+.menu-links a:hover {
+  background: #dff0e8;
+}
+
+/* إظهار القائمة عند الضغط على ⋮ */
+#menu-toggle:checked + .menu-icon + .menu-links {
+  display: block;
+}
