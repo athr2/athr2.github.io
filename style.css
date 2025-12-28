@@ -204,3 +204,27 @@ a {
 #menu-toggle:checked + .menu-icon + .menu-links {
   display: block;
 }
+/* =========================
+   توسيط الهيرو على الديسكتوب
+========================= */
+
+@media (min-width: 769px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-content,
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-image {
+    margin-top: 30px;
+  }
+  }
+.hero-content h1 {
+  display: none;
+  }
