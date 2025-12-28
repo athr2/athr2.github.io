@@ -269,3 +269,14 @@ a {
 .program-card:hover {
   transform: translateY(-5px);
   }
+/* =========================
+   ضبط لوغو برنامج البناء
+========================= */
+
+.program-logo {
+  max-width: 100%;
+  width: 160px;          /* تحكم بالحجم */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+                               }
