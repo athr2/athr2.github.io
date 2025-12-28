@@ -286,3 +286,18 @@ a {
   gap: 25px;
   justify-items: center;
   }
+/* =========================
+   توحيد قياس بوكسات البرامج
+========================= */
+
+.program-card {
+  width: 300px;
+  min-height: 320px;   /* نفس ارتفاع البناء المنهجي */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.program-card {
+  justify-content: space-between;
+  }
