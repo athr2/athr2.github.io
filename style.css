@@ -412,3 +412,7 @@ body {
   justify-content: center;
   gap: 10px;
 }
+img[src="program2-logo.png"] {
+  width: 165px;   /* كبّره شوي */
+  height: auto;
+  }
