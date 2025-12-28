@@ -98,8 +98,10 @@ a {
 /* ===== الفوتر ===== */
 .footer {
   background: #dff0e8;
-  padding: 20px;
+  padding: 30px 20px;
   text-align: center;
+  margin-top: 80px;   /* يبعده عن البرامج */
+}
 }
 
 /* ===== موبايل ===== */
@@ -375,4 +377,21 @@ body {
 
 .footer {
   margin-top: auto;   /* هذا هو الحل السحري */
+}
+/* =========================
+   تصغير كروت البرامج بعد حذف النص
+========================= */
+
+.program-card {
+  height: 160px;            /* أصغر */
+  padding: 15px;
+  justify-content: center;  /* توسيط عمودي */
+  gap: 12px;                /* مسافة خفيفة بين العناصر */
+}
+
+/* تحسين النص السفلي */
+.program-card .more {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
 }
