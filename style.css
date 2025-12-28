@@ -419,3 +419,7 @@ img[src="program2-logo.png"] {
 .program-card {
   border: 1.5px solid #2f7d5a;
 }
+.about-text {
+  font-size: 18px;
+  line-height: 1.9;
+}
