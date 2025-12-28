@@ -315,3 +315,46 @@ a {
   align-items: center;
   justify-content: center;
   }
+/* =========================
+   كروت البرامج – نفس القياس والشكل
+========================= */
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.program-card {
+  width: 260px;
+  height: 200px;              /* ارتفاع ثابت */
+  background: #ffffff;
+  border-radius: 16px;        /* مستطيل ناعم */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 20px 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* اللوغو */
+.program-logo {
+  max-width: 140px;
+  max-height: 80px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+/* النص تحت اللوغو */
+.program-card p,
+.program-card .more {
+  font-size: 15px;
+  color: #1f3d2b;
+  }
+.footer {
+  margin-top: 60px;
+  padding: 30px 20px;
+  }
