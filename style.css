@@ -98,9 +98,11 @@ a {
 /* ===== الفوتر ===== */
 .footer {
   background: #dff0e8;
-  padding: 25px 20px;
+  padding: 25px 0;      /* أزلنا padding يمين ويسار */
   text-align: center;
+  width: 100%;
 }
+
 
 /* ===== موبايل ===== */
 @media (max-width: 768px) {
