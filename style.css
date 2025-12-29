@@ -432,8 +432,8 @@ img[src="program2-logo.png"] {
 }
 
 #about .about-text {
-  font-size: 27px;   /* نص من نحن */
-  line-height: 3;
+  font-size: 25px;   /* نص من نحن */
+  line-height: 2;
 }
 /* =========================
    تكبير صورة الواجهة – موبايل فقط
