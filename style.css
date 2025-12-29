@@ -493,3 +493,28 @@ img[src="program2-logo.png"] {
   height: auto;
   margin-bottom: 15px;
 }
+.section::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #2f7d5a;
+  margin: 40px auto 0;
+  border-radius: 2px;
+}
+.program-card {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+.program-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-4px);
+}
+.section h2 {
+  letter-spacing: 1px;
+}
+.program-title {
+  letter-spacing: 1.2px;
+}
