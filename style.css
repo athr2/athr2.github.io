@@ -518,3 +518,49 @@ img[src="program2-logo.png"] {
 .program-title {
   letter-spacing: 1.2px;
 }
+/* =========================
+   Animation للكروت
+========================= */
+
+.program-card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+/* Animation ظهور الأقسام */
+.section {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: sectionFade 0.8s ease forwards;
+}
+
+@keyframes sectionFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero-content {
+  animation: heroFade 1s ease;
+}
+
+@keyframes heroFade {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.back-arrow {
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.back-arrow:hover {
+  transform: scale(1.1);
+}
