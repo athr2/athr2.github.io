@@ -435,18 +435,3 @@ img[src="program2-logo.png"] {
   font-size: 22px;   /* نص من نحن */
   line-height: 2;
 }
-/* =========================
-   تكبير صورة الصفحة الرئيسية
-========================= */
-
-.hero-image {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.hero-image img {
-  width: 100%;
-  max-width: 650px;   /* كبّر الرقم إذا بدك أكبر */
-  height: auto;
-}
