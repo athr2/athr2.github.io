@@ -423,3 +423,15 @@ img[src="program2-logo.png"] {
   font-size: 18px;
   line-height: 1.9;
 }
+/* =========================
+   قسم من نحن
+========================= */
+
+#about h2 {
+  font-size: 44px;   /* عنوان من نحن */
+}
+
+#about .about-text {
+  font-size: 22px;   /* نص من نحن */
+  line-height: 2;
+}
