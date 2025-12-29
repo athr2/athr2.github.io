@@ -489,7 +489,7 @@ img[src="program2-logo.png"] {
 }
 /* شعار البرنامج داخل صفحة البرنامج */
 .program-logo-page {
-  width: 120px;        /* حجم متوسط */
+  width: 130px;        /* حجم متوسط */
   height: auto;
   margin-bottom: 15px;
 }
