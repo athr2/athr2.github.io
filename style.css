@@ -564,3 +564,6 @@ img[src="program2-logo.png"] {
 .back-arrow:hover {
   transform: scale(1.1);
 }
+.back-arrow {
+  transform: none !important;
+}
