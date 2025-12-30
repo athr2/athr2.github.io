@@ -591,9 +591,12 @@ img[src="program2-logo.png"] {
 }
 
 .impact-image-section {
+  position: relative;
+  left: 50%;
+  right: 50%;
   width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
+  margin-left: -50vw;
+  margin-right: -50vw;
   margin-top: 80px;
 }
 
@@ -601,15 +604,11 @@ img[src="program2-logo.png"] {
   width: 100%;
   height: auto;
   display: block;
-}
+  }
 .footer {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   padding: 20px 10px;
   text-align: center;
-}
-.impact-image-section {
-  width: 100%;
-  margin-top: 80px; /* مسافة عن البرامج */
 }
