@@ -97,10 +97,11 @@ a {
 
 /* ===== الفوتر ===== */
 .footer {
-  background: #dff0e8;
-  padding: 25px 0;      /* أزلنا padding يمين ويسار */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 20px 10px;
   text-align: center;
-  width: 100%;
 }
 
 
@@ -590,13 +591,25 @@ img[src="program2-logo.png"] {
 }
 
 .impact-image-section {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 80px;
 }
 
 .impact-image-section img {
   width: 100%;
   height: auto;
   display: block;
-  }
+}
+.footer {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 20px 10px;
+  text-align: center;
+}
+.impact-image-section {
+  width: 100%;
+  margin-top: 80px; /* مسافة عن البرامج */
+}
