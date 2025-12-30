@@ -577,3 +577,7 @@ img[src="program2-logo.png"] {
 .benaa-logo-page {
   width: 100px;   /* عدّلي الرقم حسب الذوق */
 }
+/* إجبار تعديل شعار البناء المنهجي داخل صفحته */
+.program-logo-page.benaa-logo-page {
+  width: 95px !important;
+}
