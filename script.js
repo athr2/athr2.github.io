@@ -1,7 +1,9 @@
 <script>
 function showMore() {
-  document.querySelector('.more-students').style.display = 'contents';
-  document.querySelector('.show-more-btn').style.display = 'none';
+  const more = document.querySelector('.more-students');
+  const btn = document.querySelector('.show-more-btn');
+
+  if (more) more.style.display = 'contents';
+  if (btn) btn.style.display = 'none';
 }
 </script>
-
