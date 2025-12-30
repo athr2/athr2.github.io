@@ -577,3 +577,10 @@ img[src="program2-logo.png"] {
 .back-arrow {
   transform: none !important;
 }
+/* تثبيت حجم شعارات الصفحات الداخلية نهائيًا */
+.program-logo-page {
+  width: 110px !important;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+}
