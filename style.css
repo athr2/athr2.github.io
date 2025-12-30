@@ -588,47 +588,7 @@ img[src="program2-logo.png"] {
 .program-logo-page.benaa-logo-page {
   width: 100px !important;
 }
-/* ===== قسم الأثر الختامي ===== */
-.impact-section {
-  width: 100%;
-  padding: 80px 20px;
-  background: linear-gradient(
-    135deg,
-    #2f7d5a,
-    #3e9b7a,
-    #5fb39a
-  );
-  text-align: center;
-  color: #ffffff;
-}
 
-.impact-content {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.impact-logo {
-  width: 110px;
-  height: auto;
-  margin-bottom: 30px;
-}
-
-.impact-text {
-  font-size: 20px;
-  line-height: 2;
-  font-weight: 400;
-}
-
-/* موبايل */
-@media (max-width: 768px) {
-  .impact-text {
-    font-size: 18px;
-  }
-
-  .impact-logo {
-    width: 90px;
-  }
-  }
 .impact-image-section {
   width: 100%;
   margin: 0;
