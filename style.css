@@ -573,6 +573,13 @@ img[src="program2-logo.png"] {
   display: block;
   margin: 0 auto 15px;
 }
+.program-logo-page {
+  width: 110px !important;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+}
+
 /* ضبط شعار البناء المنهجي داخل صفحته فقط */
 .benaa-logo-page {
   width: 100px;   /* عدّلي الرقم حسب الذوق */
