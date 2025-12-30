@@ -577,7 +577,3 @@ img[src="program2-logo.png"] {
 .back-arrow {
   transform: none !important;
 }
-/* تكبير شعار البناء الفكري في الصفحة الرئيسية فقط */
-.fikri-card .program-logo {
-  width: 90px;   /* كبّري الرقم حسب الذوق */
-}
