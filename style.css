@@ -629,3 +629,14 @@ img[src="program2-logo.png"] {
     width: 90px;
   }
   }
+.impact-image-section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.impact-image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  }
