@@ -612,3 +612,17 @@ img[src="program2-logo.png"] {
   padding: 20px 10px;
   text-align: center;
 }
+.students-end {
+  text-align: center;
+  padding: 60px 20px 40px;
+  color: #2f4f3e;
+  font-size: 18px;
+  line-height: 2;
+}
+
+@media (max-width: 768px) {
+  .students-end {
+    font-size: 16px;
+    padding: 40px 15px 30px;
+  }
+}
